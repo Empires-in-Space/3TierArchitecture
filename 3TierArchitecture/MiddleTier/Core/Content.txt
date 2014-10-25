@@ -1,0 +1,3 @@
+﻿The Data subfolder contains class definitions for data classes
+The other classes directly in this folder contain business logic. Both folders might be filled with hundreth of files, so it would be a good idea to use good naming rules.
+

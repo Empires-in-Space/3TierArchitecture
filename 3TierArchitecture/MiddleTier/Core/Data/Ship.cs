@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 
 namespace MiddleTier.Core.Data
 {
-    public  class Ship
+    public class Ship
     {
         private int _id;
         private int _userid;

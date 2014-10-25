@@ -49,6 +49,7 @@ namespace MiddleTier.BC
         {
         }
 
+        
         public string shipMove(int _userId, int _shipId, byte _direction, int _duration = 1)
         {
             return (new Ship(_userId, _shipId).moveShip(_direction, _duration));

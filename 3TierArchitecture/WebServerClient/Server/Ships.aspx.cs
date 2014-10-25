@@ -65,8 +65,8 @@ namespace WebServerClient.Server
             //you should get the userid from the saved session cookie
             int userid = 1;
 
-            resp = bc.shipMove(userid, shipInt, directionInt, 1);
-               
+            resp = bc.shipMove(userid, shipInt, directionInt, 1);            
+
             //return the result (Response)
             Response.Clear();
             Response.Expires = -1;
